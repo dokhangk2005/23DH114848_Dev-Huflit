@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\Dev Web Huflit\\Test FE\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D3E3EE1-F3DE-4CD3-86B9-78D83D2196AC}|WebApplication1\\DoMinhViKhang_KtraFE.csproj|d:\\dev web huflit\\test fe\\webapplication1\\webapplication1\\views\\home\\test.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7D3E3EE1-F3DE-4CD3-86B9-78D83D2196AC}|WebApplication1\\DoMinhViKhang_KtraFE.csproj|D:\\Dev Web Huflit\\Test FE\\WebApplication1\\webapplication1\\views\\home\\test.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7D3E3EE1-F3DE-4CD3-86B9-78D83D2196AC}|WebApplication1\\DoMinhViKhang_KtraFE.csproj|solutionrelative:webapplication1\\views\\home\\test.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D3E3EE1-F3DE-4CD3-86B9-78D83D2196AC}|WebApplication1\\DoMinhViKhang_KtraFE.csproj|D:\\Dev Web Huflit\\Test FE\\WebApplication1\\webapplication1\\views\\shared\\masterlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7D3E3EE1-F3DE-4CD3-86B9-78D83D2196AC}|WebApplication1\\DoMinhViKhang_KtraFE.csproj|d:\\dev web huflit\\test fe\\webapplication1\\webapplication1\\views\\shared\\masterlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7D3E3EE1-F3DE-4CD3-86B9-78D83D2196AC}|WebApplication1\\DoMinhViKhang_KtraFE.csproj|solutionrelative:webapplication1\\views\\shared\\masterlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -45,9 +45,10 @@
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\Dev Web Huflit\\Test FE\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T02:50:39.076Z"
+              "WhenOpened": "2024-10-01T02:50:39.076Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -57,7 +58,7 @@
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\MasterLayout.cshtml",
               "ToolTip": "D:\\Dev Web Huflit\\Test FE\\WebApplication1\\WebApplication1\\Views\\Shared\\MasterLayout.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Shared\\MasterLayout.cshtml",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAwwGoAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAAAOEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-01T02:42:22.2Z",
               "EditorCaption": ""

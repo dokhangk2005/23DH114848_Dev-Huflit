@@ -1,143 +1,419 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tiki - Lon Sữa Glucerna</title>
+    <title>Tiki - Lon sữa GLUCEMA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        .header {
-            background-color: #189eff;
-            color: white;
-            padding: 10px 0;
-        }
-
         .container {
-            max-width: auto;
-            margin: 0 auto;
-            padding: 0 15px;
+            position: relative;
+            display: block;
+            background-color: #dddcdc;
+            height: 120vh;
+            width: 100%;
+        }
+
+        .link {
+            margin-left: 20px;
+        }
+
+            .link a {
+                text-decoration: none;
+                color: gray;
+                font-size: 17px;
+            }
+
+        .menu_product {
+            padding: 20px;
+            display: flex;
+            position: absolute;
+            left: 250px;
+            margin-left: 20px;
+        }
+
+        .img_of_product {
+            padding: 20px;
+            display: block;
+            background-color: white;
+            width: 360px;
+            border-radius: 10px;
+        }
+
+        .show_img img {
+            border: 1px solid #c4c2c2;
+            border-radius: 10px;
+        }
+
+        .scroll_img {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            display: flex;
+            align-items: center;
+            position: relative;
+            width: 350px;
+        }
+
+        .img_content {
+            display: flex;
+            overflow-x: hidden;
+        }
+
+            .img_content img {
+                border: 1px solid #acacac;
+                margin-left: 10px;
+                border-radius: 10px;
+            }
+
+                .img_content img:active {
+                    border: 2px solid #272adb
+                }
+
+        .scroll-btn-left {
+            outline: none;
+            z-index: 10;
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .scroll-btn-right {
+            outline: none;
+            z-index: 10;
+            top: 30px;
+            right: -10px;
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .description {
+            border-top: 1px solid #c1c0c0;
+            align-items: center;
+            display: flex;
+        }
+
+            .description h4 {
+                font-size: 1.2rem;
+            }
+
+            .description img {
+            }
+
+        .cost {
+            background-color: white;
+            height: 400px;
+            border-radius: 15px;
+        }
+
+        .description_of_product {
+            width: 550px;
+            display: block;
+            position: absolute;
+            left: 430px;
+        }
+
+        .sub_description {
+            display: flex;
+        }
+
+            .sub_description img {
+                padding: 10px;
+            }
+
+        .cost h2 {
+            padding: 10px;
+        }
+
+        .btn_hv {
+            width: 75px;
+            height: 30px;
+            margin-left: 10px;
+            border: 2px solid #272adb;
+            position: relative;
+            margin-top: 20px;
+            margin-left: 10px;
+            border-radius: 10px;
+        }
+
+            .btn_hv img {
+                position: absolute;
+                top: -2px;
+                right: -2px;
+            }
+
+        .information_address {
+            background-color: white;
+            border-radius: 15px;
+            margin-top: 15px
+        }
+
+        .information {
+            padding: 10px;
+            display: block
+        }
+
+        .additional_service {
+            margin-top: 15px;
+            background-color: white;
+            display: block;
+            border-radius: 10px;
+        }
+
+        .total_money {
+            background-color: white;
+            position: absolute;
+            right: -873px;
         }
 
         .logo {
+            color: white;
             font-size: 24px;
             font-weight: bold;
+ 
         }
 
         .search-bar {
-            margin: 10px 0;
+            flex: 1;
+            margin: 0 10px;
         }
 
             .search-bar input {
                 width: 100%;
                 padding: 10px;
-                border-radius: 4px;
-                border: 1px solid #ddd;
+                border: none;
+                border-radius: 5px;
             }
 
-        .main-content {
+        .icons {
             display: flex;
-            margin-top: 20px;
         }
 
-        .product-images {
-            width: 25%;
-        }
+            .icons i {
+                margin: 0 10px;
+                color: white;
+            }
 
-        .product-info {
-            width: 60%;
-            padding-left: 20px;
-        }
-
-        .product-title {
-            font-size: 20px;
-            margin-bottom: 10px;
-        }
-
-        .product-price {
-            font-size: 24px;
-            color: #ff424e;
-            font-weight: bold;
-        }
-
-        .buy {
-            background-color: white;
-            padding: 15px;
-            border-radius: 4px;
-            margin-top: 20px;
-            margin-left:600px;
-        }
-
-        .buy-button {
-            background-color: #ff424e;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 4px;
-            cursor: pointer;
+        .promotion {
+            background-color: greenyellow;
+            color: green;
+            font-size: 14px;
             align-content:center;
         }
-
-        .thumbnail-slider {
-            display: flex;
-            margin-top: 10px;
+        header {
+            background-color: blue;
         }
-
-            .thumbnail-slider img {
-                width: 60px;
-                height: 60px;
-                margin-right: 10px;
-                border: 1px solid #ddd;
-                cursor: pointer;
-            }
-        nav ul li {
-            margin-left: 20px;
-        }
-
-            nav ul li a {
-                text-decoration: none;
-                color: #333;
-            }
+        
     </style>
 </head>
 <body>
-    <header class="header">    
-        <div class="container">
-            <div class="logo">
-                <img src="~/Content/logo.png" id="logo" alt="Tiki Logo" sizes="50px">
-            </div>
-            <div class="search-bar">
-                <input type="text" placeholder="Freeship đến từ 45k...">
-            </div>
+    <header>
+        <div class="promotion">Freeship đơn từ 45k, giảm nhiều hơn cùng FREESHIP EXTRA</div>
+        <div class="logo">
+            <img src="~/Content/logo.png" id="logo" alt="Tiki Logo" sizes="50px">
         </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Freeship đơn từ 45k">
+        </div>
+        <div class="icons">
+            <i class="fa fa-search"></i>
+            <i class="fa fa-home"></i>
+            <i class="fa fa-user"></i>
+            <i class="fa fa-shopping-cart"></i>
+        </div>
+        <
     </header>
-
-    <main class="container">
-        <div class="main-content">
-            <div class="product-images">
-                <img src="~/Content/suaaaa.jpg" alt="Lon Sữa Glucerna" style="width:100%;">
-                <div class="thumbnail-slider">
-                    <img src="/api/placeholder/60/60" alt="Thumbnail 1">
-                    <img src="/api/placeholder/60/60" alt="Thumbnail 2">
-                    <img src="/api/placeholder/60/60" alt="Thumbnail 3">
+    <div class="container">
+        <nav class="link">
+            <a href="#">Trang chủ ></a>
+            <a href="#">Đồ chơi - Mẹ và Bé ></a>
+            <a href="#">Dinh dưỡng chó Người lớn ></a>
+            <a href="#">Lon sữa Glucerna 800g/lon - Tặng 2 gói dùng thử </a>
+        </nav>
+        <div class="menu_product">
+            <div class="img_of_product">
+                <div class="show_img">
+                    <img src="~/Content/img/e02b62401992d50405feb0a3baba4139.jpg.png" height="360" width="350" />
+                </div>
+                <div class="scroll_img">
+                    <button class="scroll-btn-left" onclick="scrollLeft()"><</button>
+                    <div class="img_content">
+                        <img src="~/Content/img/0a36c8de518d8e98a4c2f476ee28b637 (2).jpg" height="50" width="50" />
+                        <img src="~/Content/img/0a36c8de518d8e98a4c2f476ee28b637 (3).jpg" height="50" width="50" />
+                        <img src="~/Content/img/0a36c8de518d8e98a4c2f476ee28b637 (4).jpg" height="50" width="50" />
+                        <img src="~/Content/img/0a36c8de518d8e98a4c2f476ee28b637 (5).jpg" height="50" width="50" />
+                        <img src="~/Content/img/0a36c8de518d8e98a4c2f476ee28b637.jpg" height="50" width="50" />
+                        <img src="~/Content/img/66f8255061a94c8eeca4eb32c1c9724b.jpg" height="50" width="50" />
+                        <img src="~/Content/img/0a36c8de518d8e98a4c2f476ee28b637 (2).jpg" height="50" width="50" />
+                        <img src="~/Content/img/0a36c8de518d8e98a4c2f476ee28b637 (3).jpg" height="50" width="50" />
+                        <img src="~/Content/img/0a36c8de518d8e98a4c2f476ee28b637 (4).jpg" height="50" width="50" />
+                        <img src="~/Content/img/0a36c8de518d8e98a4c2f476ee28b637 (5).jpg" height="50" width="50" />
+                        <img src="~/Content/img/0a36c8de518d8e98a4c2f476ee28b637.jpg" height="50" width="50" />
+                        <img src="~/Content/img/66f8255061a94c8eeca4eb32c1c9724b.jpg" height="50" width="50" />
+                    </div>
+                    <button class="scroll-btn-right" onclick="scrollRight()">></button>
+                </div>
+                <div class="description">
+                    <img src="https://salt.tikicdn.com/ts/ta/d3/d4/1c/1d4ee6bf8bc9c5795529ac50a6b439dd.png" alt="icon-left" width="24" height="24" style="margin-right:5px">
+                    <h4><b>Xem thêm ưu điểm của sản phẩm</b></h4>
+                    <img src="https://salt.tikicdn.com/ts/ta/5c/76/e2/25aa7773e0480b23252d8f1c95a03d05.png" alt="icon-right" width="24" height="24">
                 </div>
             </div>
-            <div class="product-info">
-                <h1 class="product-title">Lon Sữa Glucerna 800g/lon - Tặng 2 gói đồng thử</h1>
-                <div class="product-price">1.034.550đ</div>
-                <div class="buy">
-                    <button class="buy-button">Mua ngay</button>
+            <div class="description_of_product">
+                <div class="cost">
+                    <div class="sub_description">
+                        <img srcset="https://salt.tikicdn.com/ts/upload/94/36/e7/c5297f3fad0a83fb56f98be877904467.png" width="76" height="25" alt="is_hero" style="width:76px; height: 20px; opacity: 1" class="styles__StyledImg-sc-p9s3t3-0 hbqSye">
+                        <img srcset="https://salt.tikicdn.com/ts/ta/b1/3f/4e/cc3d0a2dd751a7b06dd97d868d6afa56.png" width="114" height="20" alt="return_policy" style=" margin-left: 10px;width:114px; height: 20px; opacity: 1" class="styles__StyledImg-sc-p9s3t3-0 hbqSye">
+                        <img srcset="https://salt.tikicdn.com/ts/upload/d7/56/04/b93b8c666e13f49971483596ef14800f.png" width="89" height="20" alt="is_authentic" style=" margin-left: 10px;width:89px; height: 20px; opacity: 1" class="styles__StyledImg-sc-p9s3t3-0 hbqSye">
+                        <div class="thuonghieu" style="display:flex;align-items:center; margin-left:10px">
+                            <span>Thương hiệu:  </span>
+                            <a href="#" style="text-decoration:none">glucema</a>
+                        </div>
+                    </div>
+                    <h2>Sữa bột NAN INFINIPRO A2 Thụy Sĩ 3 800g với đạm quý A2 tiêu hóa tốt sau 7 ngày và 5HMO tăng cường đề kháng (2 - 6 tuổi)</h2>
+                    <div style="display:flex;align-items:center;padding-left:10px">
+                        <div><b>4.6</b></div>
+                        <div style="margin-left:5px;margin-bottom:5px;display:flex;"><span style="font-size: 13px;">⭐</span><span style="font-size: 13px;">⭐</span><span style="font-size: 13px;">⭐</span><span style="font-size: 13px;">⭐</span><span style="font-size: 13px;">⭐</span><span style="font-size: 13px;">⭐</span></div>
+                        <p style="color:#b5aeae"></p>
+                        <div class="total" style="margin-left:8px;font-size:15px;margin-bottom:2px">(11)</div>
+                        <dia style="width:2px;height:15px; background-color:#a9a9a9;margin-left:10px;"></dia>
+                        <div style="margin-left:10px;"><p style="color:#acacac">Đã bán 436</p></div>
+                    </div>
+                    <div style="margin-left:10px"><p style="color:#8a8a8a">Made in Spain</p></div>
+                    <div style="margin-left: 10px"><h1>1.034.550&#8363;</h1></div>
+                    <div style="margin-left: 10px"><b>Hương vị</b></div>
+                    <div>
+                        <button class="btn_hv">
+                            Vani
+                            <img class="selected-indicator" src="https://salt.tikicdn.com/ts/upload/6d/62/b9/ac9f3bebb724a308d710c0a605fe057d.png" alt="Selected" style="width:13px;height:13px" width="13" height="13">
+                        </button>
+                    </div>
+                </div>
+                <div class="information_address">
+                    <div class="information">
+                        <div><p style="font-size:17px;"><b>Thông tin vận chuyển</b></p></div>
+                        <div style="justify-content: space-between; display: flex; align-items: center; height: 15px">
+                            <div><p style="color:#868686;">Giao đến Q.1, P.bến Nghé, Hồ Chí Minh</p></div>
+                            <a href="#" style="text-decoration:none; margin-right: 20px;color:blue">Đổi</a>
+                        </div>
+                    </div>
+                    <div class="information" style="border-bottom:1px solid #bbbbbb">
+                        <div style="display:flex; align-items:center;">
+                            <div>
+                                <img src="https://salt.tikicdn.com/ts/upload/04/da/1e/eac32401f048ffd380e50dfeda2a1c55.png" alt="" height="16" width="32">
+                            </div>
+                            <div style="margin-left:5px"><p>Giao hàng siêu tốc 2h</p></div>
+                        </div>
+                        <div>
+                            <div class="shipping-info__item__fee">
+                                <div class="shipping-info__item__fee_name"><span style="color:#27272A;">Trước 13h hôm nay: <span style="color:#00AB56;">Miễn phí</span><span style="color:#808089;">&nbsp;<del>25.000<sup><small>₫</small></sup></del></span></span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="information" style="border-bottom:1px solid #bbbbbb">
+                        <div style="display:flex; align-items:center">
+                            <img src="https://salt.tikicdn.com/ts/upload/6b/59/d9/783a8f53f8c251dbe5f644df40c21c15.png" alt="" height="16" width="32">
+                            <div><p style="margin-left:5px">Giao hàng sáng mai</p></div>
+                        </div>
+                        <div class="shipping-info__item__fee"><div class="shipping-info__item__fee_name"><span style="color:#27272A;">8h - 12h, 08/10: <span style="color:#00AB56;">Miễn phí</span><span style="color:#808089;">&nbsp;<del>19.600<sup><small>₫</small></sup></del></span></span></div></div>
+                    </div>
+                    <div class="information" style="display:flex; align-items:center">
+                        <img srcset="https://salt.tikicdn.com/ts/upload/67/bc/b6/7aed838df704ad50927e343895885e73.png" width="18" height="18" alt="freeship-icon" class="styles__StyledImg-sc-p9s3t3-0 hbqSye badge" style="width: 18px; height: 18px; opacity: 1;">
+                        <div style="margin-left:5px;"><p>Freeship từ đơn 45k, Freeship 25k từ đơn 100k</p></div>
+                        <img style="margin-left:5px;" srcset="https://salt.tikicdn.com/ts/ta/c1/c0/8f/1c42c78c42d4355130fa4a4ef9036892.png" width="16" height="16" alt="info-icon" class="styles__StyledImg-sc-p9s3t3-0 hbqSye" style="width: 16px; height: 16px; opacity: 1;">
+                    </div>
+                </div>
+                <div class="additional_service">
+                    <div style="padding:10px"><h3>Dịch vụ bổ sung</h3></div>
+                    <div>
+                        <div style="display: flex; align-items: center; height: 50px; margin-bottom: 10px ">
+                            <img srcset="https://salt.tikicdn.com/ts/upload/73/4d/f7/f86e767bffc14aa3d6abed348630100b.png" alt="compensation-icon" height="40" width="40" style="margin-left: 10px; width: 40px; height: 40px; opacity: 1" class="styles__StyledImg-sc-p9s3t3-0 hbqSye">
+                            <p style="margin-left:20px"><b>Ưu đãi 600k với thẻ TikiCard</b></p>
+                            <a href="#" style="text-decoration:none; color:blue;margin-left:220px;">Đăng kí</a>
+                        </div>
+                        <div style="height:1px;width:500px; background-color:#bbbbbb; margin-left:20px;"></div>
+                        <div style="display: flex; align-items: center; height: 50px; margin-top: 10px; padding-bottom: 15px">
+                            <img srcset="https://salt.tikicdn.com/ts/upload/2a/27/6a/7bbba1f6c93a1a42a3c314e7b5825f4c.png" alt="compensation-icon" height="40" width="40" style="border-radius:10px;margin-left: 10px; width: 40px; height: 40px; opacity: 1" class="styles__StyledImg-sc-p9s3t3-0 hbqSye">
+                            <p style="margin-left:20px"><b>Mua trước trả sau</b></p>
+                            <a href="#" style="text-decoration:none; color:blue;margin-left:290px;">Đăng kí</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="total_money" style="display: block; width:325px;height:520px;border-radius:10px">
+                <div style="display:flex;align-items:center;">
+                    <div><img srcset="https://vcdn.tikicdn.com/cache/w100/ts/seller/d1/3f/ae/13ce3d83ab6b6c5e77e6377ad61dc4a5.jpg 1x, https://vcdn.tikicdn.com/cache/w100/ts/seller/d1/3f/ae/13ce3d83ab6b6c5e77e6377ad61dc4a5.jpg 2x" class="styles__StyledImg-sc-p9s3t3-0 hbqSye logo" width="40" height="40" alt="Tiki Trading" style="border-radius: 50%; min-width: 40px; width: 40px; height: 40px; opacity: 1;"></div>
+                    <div style="display:block;padding-inline:15px">
+                        <div><span><b>Tiki Trading</b></span></div>
+                        <div style="display:flex ;align-items:center">
+                            <img srcset="https://salt.tikicdn.com/cache/w100/ts/upload/6b/25/fb/c288b5bcee51f35f2df0a5f5f03de2e1.png 1x, https://salt.tikicdn.com/cache/w100/ts/upload/6b/25/fb/c288b5bcee51f35f2df0a5f5f03de2e1.png 2x" class="styles__StyledImg-sc-p9s3t3-0 hbqSye badge-img" alt="seller-badge" style="width: 72px; height: 20px; min-width: 72px; min-height: 20px; opacity: 1;">
+                            <div style="width:1px; height:10px;  background:#b5b5b5"></div>
+                            <span style="padding-left:10px">4.5</span>
+                            <span style="font-size: 13px;">⭐</span>
+                            <span style="color:#b2b2b2; ">(5.5tr+ đánh giá)</span>
+                        </div>
+                    </div>
+                    <div style=""><img style="border:1px solid #b1b1b1" alt="chat-tiki-trading" src="https://salt.tikicdn.com/ts/upload/8b/82/74/cf2c041938ace329ab11fbc38da3275b.png" height="16" width="16"></div>
+                </div>
+                <div style="height:1px; width:300px; background-color:#bebebe; margin-left:15px;margin-top:10px"></div>
+                <div style="display:flex; margin-top:20px;align-items:center;margin-left:10px">
+                    <img class="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo info-icon" src="https://salt.tikicdn.com/cache/280x280/ts/product/57/4d/ff/acefcc919e8657f7843826267abc87f4.jpg" width="40" height="40" alt="info-icon" srcset="https://salt.tikicdn.com/cache/280x280/ts/product/57/4d/ff/acefcc919e8657f7843826267abc87f4.jpg">
+                    <p style="color:#9d9d9d; margin-left:10px;font-size:17px">Vani</p>
+                </div>
+                <div style="display:block;margin-left:10px">
+                    <h4>số lượng</h4>
+                    <div style="display:flex; padding:10px">
+                        <button class="decread" style="width:40px;" onclick="changeQuantity(-1)">-</button>
+                        <input type="number" id="sl_hang" value="1" style="width:40px;height:30px; margin-left: 5px" />
+                        <button class="add" style="width: 40px; margin-left: 5px" onclick="changeQuantity(1)">+</button>
+                    </div>
+                </div>
+                <div style="display:block;margin-left:10px">
+                    <div><h3>Tạm Tính</h3></div>
+                    <div><h2 id="tam_tinh">1.034.550₫</h2></div>
+                </div>
+                <div style="display:block; margin-left:30px;width: 80%">
+                    <button style="background-color: red; width: 100%; height: 40px; "><p style="color: white; font-size: 1.3rem; margin-bottom:10px">Mua ngay</p></button>
+                    <button style="border: 1px solid blue; width: 100%; height: 40px;  margin-top:20px"><p style="font-size:1.3rem;color:blue;margin">Thêm vào giỏ</p></button>
+                    <button style="border: 1px solid blue; width: 100%; height: 40px; margin-top:20px"><p style="font-size: 1.3rem; color: blue"> Mua trước trả sau</p></button>
                 </div>
             </div>
         </div>
-    </main>
-<div>
-    @RenderBody()
-</div>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+    <script>
+        const unitPrice = 1034550;
+
+        function formatPrice(price) {
+            return new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(price);
+        }
+
+        function updateTotal() {
+            const quantity = parseInt(document.getElementById('sl_hang').value) || 1;
+            const total = quantity * unitPrice;
+            document.getElementById('tam_tinh').textContent = formatPrice(total);
+        }
+
+        function changeQuantity(change) {
+            const quantityInput = document.getElementById('sl_hang');
+            let newQuantity = parseInt(quantityInput.value) + change;
+            if (newQuantity < 1) newQuantity = 1;
+            quantityInput.value = newQuantity;
+            updateTotal();
+        }
+        updateTotal();
+
+        document.getElementById('sl_hang').addEventListener('input', updateTotal);
+    </script>
 </body>
 </html>
