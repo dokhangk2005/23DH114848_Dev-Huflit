@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dev Web Huflit\\Test FE\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7D3E3EE1-F3DE-4CD3-86B9-78D83D2196AC}|WebApplication1\\DoMinhViKhang_KtraFE.csproj|d:\\dev web huflit\\test fe\\webapplication1\\webapplication1\\views\\home\\test.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D3E3EE1-F3DE-4CD3-86B9-78D83D2196AC}|WebApplication1\\DoMinhViKhang_KtraFE.csproj|solutionrelative:webapplication1\\views\\home\\test.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D3E3EE1-F3DE-4CD3-86B9-78D83D2196AC}|WebApplication1\\DoMinhViKhang_KtraFE.csproj|D:\\Dev Web Huflit\\Test FE\\WebApplication1\\webapplication1\\views\\shared\\masterlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D3E3EE1-F3DE-4CD3-86B9-78D83D2196AC}|WebApplication1\\DoMinhViKhang_KtraFE.csproj|solutionrelative:webapplication1\\views\\shared\\masterlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D3E3EE1-F3DE-4CD3-86B9-78D83D2196AC}|WebApplication1\\DoMinhViKhang_KtraFE.csproj|D:\\Dev Web Huflit\\Test FE\\WebApplication1\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D3E3EE1-F3DE-4CD3-86B9-78D83D2196AC}|WebApplication1\\DoMinhViKhang_KtraFE.csproj|solutionrelative:webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 254,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Test.cshtml",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\Test FE\\WebApplication1\\WebApplication1\\Views\\Home\\Test.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Test.cshtml",
+              "ToolTip": "D:\\Dev Web Huflit\\Test FE\\WebApplication1\\WebApplication1\\Views\\Home\\Test.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\Test.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-01T02:52:35.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\Test FE\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Dev Web Huflit\\Test FE\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T02:50:39.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MasterLayout.cshtml",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\Test FE\\WebApplication1\\WebApplication1\\Views\\Shared\\MasterLayout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\MasterLayout.cshtml",
+              "ToolTip": "D:\\Dev Web Huflit\\Test FE\\WebApplication1\\WebApplication1\\Views\\Shared\\MasterLayout.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\MasterLayout.cshtml",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAwwGoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-01T02:42:22.2Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

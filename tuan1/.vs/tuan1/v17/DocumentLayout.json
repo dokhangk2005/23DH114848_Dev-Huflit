@@ -1,0 +1,294 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dev Web Huflit\\tuan1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|d:\\dev web huflit\\tuan1\\tuan1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|solutionrelative:tuan1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|D:\\Dev Web Huflit\\tuan1\\tuan1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|solutionrelative:tuan1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|D:\\Dev Web Huflit\\tuan1\\tuan1\\views\\home\\th2\\src\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|solutionrelative:tuan1\\views\\home\\th2\\src\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|D:\\Dev Web Huflit\\tuan1\\tuan1\\views\\home\\th2\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|solutionrelative:tuan1\\views\\home\\th2\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|D:\\Dev Web Huflit\\tuan1\\tuan1\\views\\home\\th2\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|solutionrelative:tuan1\\views\\home\\th2\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|D:\\Dev Web Huflit\\tuan1\\tuan1\\views\\home\\th2\\src\\sub\\intro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|solutionrelative:tuan1\\views\\home\\th2\\src\\sub\\intro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|D:\\Dev Web Huflit\\tuan1\\tuan1\\views\\home\\th2\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|solutionrelative:tuan1\\views\\home\\th2\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|D:\\Dev Web Huflit\\tuan1\\tuan1\\views\\home\\th2\\src\\sub\\sale.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|solutionrelative:tuan1\\views\\home\\th2\\src\\sub\\sale.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|D:\\Dev Web Huflit\\tuan1\\tuan1\\views\\home\\bai5_lab01b.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|solutionrelative:tuan1\\views\\home\\bai5_lab01b.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|D:\\Dev Web Huflit\\tuan1\\tuan1\\views\\home\\bai4_lab01b.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|solutionrelative:tuan1\\views\\home\\bai4_lab01b.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|D:\\Dev Web Huflit\\tuan1\\tuan1\\views\\home\\bai2_3_lap01b.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|solutionrelative:tuan1\\views\\home\\bai2_3_lap01b.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|D:\\Dev Web Huflit\\tuan1\\tuan1\\views\\home\\bai1_lab01a.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|solutionrelative:tuan1\\views\\home\\bai1_lab01a.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|D:\\Dev Web Huflit\\tuan1\\tuan1\\views\\home\\bai2_lab01a.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|solutionrelative:tuan1\\views\\home\\bai2_lab01a.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|D:\\Dev Web Huflit\\tuan1\\tuan1\\views\\home\\bai3_lab01a.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|solutionrelative:tuan1\\views\\home\\bai3_lab01a.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|D:\\Dev Web Huflit\\tuan1\\tuan1\\views\\home\\bai2_2_lap01b.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|solutionrelative:tuan1\\views\\home\\bai2_2_lap01b.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|D:\\Dev Web Huflit\\tuan1\\tuan1\\views\\home\\bai3_lab01b.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|solutionrelative:tuan1\\views\\home\\bai3_lab01b.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|D:\\Dev Web Huflit\\tuan1\\tuan1\\views\\home\\bai2_1_lap01b.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB5AF38A-1757-4CBE-850D-3F20E164C2D1}|tuan1\\tuan1.csproj|solutionrelative:tuan1\\views\\home\\bai2_1_lap01b.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 254,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "bai2_2_lap01b.cshtml",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Home\\bai2_2_lap01b.cshtml",
+              "RelativeDocumentMoniker": "tuan1\\Views\\Home\\bai2_2_lap01b.cshtml",
+              "ToolTip": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Home\\bai2_2_lap01b.cshtml",
+              "RelativeToolTip": "tuan1\\Views\\Home\\bai2_2_lap01b.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwBkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-10T03:53:15.847Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "tuan1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "tuan1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-16T16:48:03.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "product.cshtml",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Home\\th2\\product.cshtml",
+              "RelativeDocumentMoniker": "tuan1\\Views\\Home\\th2\\product.cshtml",
+              "ToolTip": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Home\\th2\\product.cshtml",
+              "RelativeToolTip": "tuan1\\Views\\Home\\th2\\product.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-16T16:19:54.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Home\\th2\\Contact.cshtml",
+              "RelativeDocumentMoniker": "tuan1\\Views\\Home\\th2\\Contact.cshtml",
+              "ToolTip": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Home\\th2\\Contact.cshtml",
+              "RelativeToolTip": "tuan1\\Views\\Home\\th2\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-16T16:19:44.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "home.cshtml",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Home\\th2\\home.cshtml",
+              "RelativeDocumentMoniker": "tuan1\\Views\\Home\\th2\\home.cshtml",
+              "ToolTip": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Home\\th2\\home.cshtml",
+              "RelativeToolTip": "tuan1\\Views\\Home\\th2\\home.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-16T16:19:33.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "New.cshtml",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Home\\th2\\src\\New.cshtml",
+              "RelativeDocumentMoniker": "tuan1\\Views\\Home\\th2\\src\\New.cshtml",
+              "ToolTip": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Home\\th2\\src\\New.cshtml",
+              "RelativeToolTip": "tuan1\\Views\\Home\\th2\\src\\New.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-16T16:18:38.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "intro.cshtml",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Home\\th2\\src\\sub\\intro.cshtml",
+              "RelativeDocumentMoniker": "tuan1\\Views\\Home\\th2\\src\\sub\\intro.cshtml",
+              "ToolTip": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Home\\th2\\src\\sub\\intro.cshtml",
+              "RelativeToolTip": "tuan1\\Views\\Home\\th2\\src\\sub\\intro.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-16T16:15:53.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "tuan1\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "tuan1\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAmwEMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T03:34:48.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "sale.cshtml",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Home\\th2\\src\\sub\\sale.cshtml",
+              "RelativeDocumentMoniker": "tuan1\\Views\\Home\\th2\\src\\sub\\sale.cshtml",
+              "ToolTip": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Home\\th2\\src\\sub\\sale.cshtml",
+              "RelativeToolTip": "tuan1\\Views\\Home\\th2\\src\\sub\\sale.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-16T16:16:04.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "bai5_lab01b.cshtml",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Home\\bai5_lab01b.cshtml",
+              "RelativeDocumentMoniker": "tuan1\\Views\\Home\\bai5_lab01b.cshtml",
+              "ToolTip": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Home\\bai5_lab01b.cshtml",
+              "RelativeToolTip": "tuan1\\Views\\Home\\bai5_lab01b.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAUwBsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-12T18:00:37.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "bai4_lab01b.cshtml",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Home\\bai4_lab01b.cshtml",
+              "RelativeDocumentMoniker": "tuan1\\Views\\Home\\bai4_lab01b.cshtml",
+              "ToolTip": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Home\\bai4_lab01b.cshtml",
+              "RelativeToolTip": "tuan1\\Views\\Home\\bai4_lab01b.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-12T14:54:15.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "bai2_lab01a.cshtml",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Home\\bai2_lab01a.cshtml",
+              "RelativeDocumentMoniker": "tuan1\\Views\\Home\\bai2_lab01a.cshtml",
+              "ToolTip": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Home\\bai2_lab01a.cshtml",
+              "RelativeToolTip": "tuan1\\Views\\Home\\bai2_lab01a.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-11T19:30:50.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "bai1_lab01a.cshtml",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Home\\bai1_lab01a.cshtml",
+              "RelativeDocumentMoniker": "tuan1\\Views\\Home\\bai1_lab01a.cshtml",
+              "ToolTip": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Home\\bai1_lab01a.cshtml",
+              "RelativeToolTip": "tuan1\\Views\\Home\\bai1_lab01a.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-11T19:19:42.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "bai3_lab01b.cshtml",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Home\\bai3_lab01b.cshtml",
+              "RelativeDocumentMoniker": "tuan1\\Views\\Home\\bai3_lab01b.cshtml",
+              "ToolTip": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Home\\bai3_lab01b.cshtml",
+              "RelativeToolTip": "tuan1\\Views\\Home\\bai3_lab01b.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABAAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-10T04:08:40.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "bai2_3_lap01b.cshtml",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Home\\bai2_3_lap01b.cshtml",
+              "RelativeDocumentMoniker": "tuan1\\Views\\Home\\bai2_3_lap01b.cshtml",
+              "ToolTip": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Home\\bai2_3_lap01b.cshtml",
+              "RelativeToolTip": "tuan1\\Views\\Home\\bai2_3_lap01b.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-10T03:56:49.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "bai2_1_lap01b.cshtml",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Home\\bai2_1_lap01b.cshtml",
+              "RelativeDocumentMoniker": "tuan1\\Views\\Home\\bai2_1_lap01b.cshtml",
+              "ToolTip": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Home\\bai2_1_lap01b.cshtml",
+              "RelativeToolTip": "tuan1\\Views\\Home\\bai2_1_lap01b.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-10T03:45:03.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "bai3_lab01a.cshtml",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Home\\bai3_lab01a.cshtml",
+              "RelativeDocumentMoniker": "tuan1\\Views\\Home\\bai3_lab01a.cshtml",
+              "ToolTip": "D:\\Dev Web Huflit\\tuan1\\tuan1\\Views\\Home\\bai3_lab01a.cshtml",
+              "RelativeToolTip": "tuan1\\Views\\Home\\bai3_lab01a.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-10T03:34:41.69Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
