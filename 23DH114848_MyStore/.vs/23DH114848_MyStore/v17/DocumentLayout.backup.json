@@ -3,20 +3,48 @@
   "WorkspaceRootPath": "D:\\Dev Web Huflit\\23DH114848_MyStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F1C8F8B-4D14-4AA4-A6BF-20C40D79F080}|23DH114848_MyStore\\23DH114848_MyStore.csproj|d:\\dev web huflit\\23dh114848_mystore\\23dh114848_mystore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1F1C8F8B-4D14-4AA4-A6BF-20C40D79F080}|23DH114848_MyStore\\23DH114848_MyStore.csproj|solutionrelative:23dh114848_mystore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1F1C8F8B-4D14-4AA4-A6BF-20C40D79F080}|23DH114848_MyStore\\23DH114848_MyStore.csproj|d:\\dev web huflit\\23dh114848_mystore\\23dh114848_mystore\\areas\\admin\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F1C8F8B-4D14-4AA4-A6BF-20C40D79F080}|23DH114848_MyStore\\23DH114848_MyStore.csproj|solutionrelative:23dh114848_mystore\\areas\\admin\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F1C8F8B-4D14-4AA4-A6BF-20C40D79F080}|23DH114848_MyStore\\23DH114848_MyStore.csproj|d:\\dev web huflit\\23dh114848_mystore\\23dh114848_mystore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F1C8F8B-4D14-4AA4-A6BF-20C40D79F080}|23DH114848_MyStore\\23DH114848_MyStore.csproj|solutionrelative:23dh114848_mystore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F1C8F8B-4D14-4AA4-A6BF-20C40D79F080}|23DH114848_MyStore\\23DH114848_MyStore.csproj|d:\\dev web huflit\\23dh114848_mystore\\23dh114848_mystore\\areas\\admin\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F1C8F8B-4D14-4AA4-A6BF-20C40D79F080}|23DH114848_MyStore\\23DH114848_MyStore.csproj|solutionrelative:23dh114848_mystore\\areas\\admin\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F1C8F8B-4D14-4AA4-A6BF-20C40D79F080}|23DH114848_MyStore\\23DH114848_MyStore.csproj|d:\\dev web huflit\\23dh114848_mystore\\23dh114848_mystore\\areas\\admin\\adminarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F1C8F8B-4D14-4AA4-A6BF-20C40D79F080}|23DH114848_MyStore\\23DH114848_MyStore.csproj|d:\\dev web huflit\\23dh114848_mystore\\23dh114848_mystore\\areas\\admin\\views\\categories\\pvcreateeditcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F1C8F8B-4D14-4AA4-A6BF-20C40D79F080}|23DH114848_MyStore\\23DH114848_MyStore.csproj|solutionrelative:23dh114848_mystore\\areas\\admin\\views\\categories\\pvcreateeditcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1C8F8B-4D14-4AA4-A6BF-20C40D79F080}|23DH114848_MyStore\\23DH114848_MyStore.csproj|d:\\dev web huflit\\23dh114848_mystore\\23dh114848_mystore\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1C8F8B-4D14-4AA4-A6BF-20C40D79F080}|23DH114848_MyStore\\23DH114848_MyStore.csproj|solutionrelative:23dh114848_mystore\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1C8F8B-4D14-4AA4-A6BF-20C40D79F080}|23DH114848_MyStore\\23DH114848_MyStore.csproj|d:\\dev web huflit\\23dh114848_mystore\\23dh114848_mystore\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1C8F8B-4D14-4AA4-A6BF-20C40D79F080}|23DH114848_MyStore\\23DH114848_MyStore.csproj|solutionrelative:23dh114848_mystore\\areas\\admin\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1C8F8B-4D14-4AA4-A6BF-20C40D79F080}|23DH114848_MyStore\\23DH114848_MyStore.csproj|D:\\Dev Web Huflit\\23DH114848_MyStore\\23dh114848_mystore\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F1C8F8B-4D14-4AA4-A6BF-20C40D79F080}|23DH114848_MyStore\\23DH114848_MyStore.csproj|solutionrelative:23dh114848_mystore\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1C8F8B-4D14-4AA4-A6BF-20C40D79F080}|23DH114848_MyStore\\23DH114848_MyStore.csproj|D:\\Dev Web Huflit\\23DH114848_MyStore\\23dh114848_mystore\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F1C8F8B-4D14-4AA4-A6BF-20C40D79F080}|23DH114848_MyStore\\23DH114848_MyStore.csproj|solutionrelative:23dh114848_mystore\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1C8F8B-4D14-4AA4-A6BF-20C40D79F080}|23DH114848_MyStore\\23DH114848_MyStore.csproj|D:\\Dev Web Huflit\\23DH114848_MyStore\\23dh114848_mystore\\areas\\admin\\controllers\\adminhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1C8F8B-4D14-4AA4-A6BF-20C40D79F080}|23DH114848_MyStore\\23DH114848_MyStore.csproj|solutionrelative:23dh114848_mystore\\areas\\admin\\controllers\\adminhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1C8F8B-4D14-4AA4-A6BF-20C40D79F080}|23DH114848_MyStore\\23DH114848_MyStore.csproj|D:\\Dev Web Huflit\\23DH114848_MyStore\\23dh114848_mystore\\areas\\admin\\adminarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F1C8F8B-4D14-4AA4-A6BF-20C40D79F080}|23DH114848_MyStore\\23DH114848_MyStore.csproj|solutionrelative:23dh114848_mystore\\areas\\admin\\adminarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F1C8F8B-4D14-4AA4-A6BF-20C40D79F080}|23DH114848_MyStore\\23DH114848_MyStore.csproj|d:\\dev web huflit\\23dh114848_mystore\\23dh114848_mystore\\models\\mystoremodel1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{1F1C8F8B-4D14-4AA4-A6BF-20C40D79F080}|23DH114848_MyStore\\23DH114848_MyStore.csproj|solutionrelative:23dh114848_mystore\\models\\mystoremodel1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+      "AbsoluteMoniker": "D:0:0:{1F1C8F8B-4D14-4AA4-A6BF-20C40D79F080}|23DH114848_MyStore\\23DH114848_MyStore.csproj|D:\\Dev Web Huflit\\23DH114848_MyStore\\23dh114848_mystore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1C8F8B-4D14-4AA4-A6BF-20C40D79F080}|23DH114848_MyStore\\23DH114848_MyStore.csproj|solutionrelative:23dh114848_mystore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1C8F8B-4D14-4AA4-A6BF-20C40D79F080}|23DH114848_MyStore\\23DH114848_MyStore.csproj|D:\\Dev Web Huflit\\23DH114848_MyStore\\23dh114848_mystore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1F1C8F8B-4D14-4AA4-A6BF-20C40D79F080}|23DH114848_MyStore\\23DH114848_MyStore.csproj|solutionrelative:23dh114848_mystore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,20 +58,95 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\23DH114848_MyStore\\23DH114848_MyStore\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "23DH114848_MyStore\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
+              "ToolTip": "D:\\Dev Web Huflit\\23DH114848_MyStore\\23DH114848_MyStore\\Areas\\Admin\\Views\\Categories\\Create.cshtml*",
+              "RelativeToolTip": "23DH114848_MyStore\\Areas\\Admin\\Views\\Categories\\Create.cshtml*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T13:25:41.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\23DH114848_MyStore\\23DH114848_MyStore\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "23DH114848_MyStore\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\Dev Web Huflit\\23DH114848_MyStore\\23DH114848_MyStore\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "23DH114848_MyStore\\Areas\\Admin\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T13:25:38.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\23DH114848_MyStore\\23DH114848_MyStore\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "23DH114848_MyStore\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\Dev Web Huflit\\23DH114848_MyStore\\23DH114848_MyStore\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "23DH114848_MyStore\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAA4wF8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T13:25:24.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\23DH114848_MyStore\\23DH114848_MyStore\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "23DH114848_MyStore\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "D:\\Dev Web Huflit\\23DH114848_MyStore\\23DH114848_MyStore\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "23DH114848_MyStore\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T03:12:03.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\23DH114848_MyStore\\23DH114848_MyStore\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "23DH114848_MyStore\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Dev Web Huflit\\23DH114848_MyStore\\23DH114848_MyStore\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "23DH114848_MyStore\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T14:08:47.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminHomeController.cs",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\23DH114848_MyStore\\23DH114848_MyStore\\Areas\\Admin\\Controllers\\AdminHomeController.cs",
+              "RelativeDocumentMoniker": "23DH114848_MyStore\\Areas\\Admin\\Controllers\\AdminHomeController.cs",
+              "ToolTip": "D:\\Dev Web Huflit\\23DH114848_MyStore\\23DH114848_MyStore\\Areas\\Admin\\Controllers\\AdminHomeController.cs",
+              "RelativeToolTip": "23DH114848_MyStore\\Areas\\Admin\\Controllers\\AdminHomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T14:08:29.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Dev Web Huflit\\23DH114848_MyStore\\23DH114848_MyStore\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "23DH114848_MyStore\\Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\Dev Web Huflit\\23DH114848_MyStore\\23DH114848_MyStore\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "23DH114848_MyStore\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-08T03:50:15.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T03:50:15.701Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Dev Web Huflit\\23DH114848_MyStore\\23DH114848_MyStore\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "23DH114848_MyStore\\Controllers\\HomeController.cs",
@@ -51,33 +154,51 @@
               "RelativeToolTip": "23DH114848_MyStore\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T03:47:59.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T03:47:59.492Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "AdminAreaRegistration.cs",
               "DocumentMoniker": "D:\\Dev Web Huflit\\23DH114848_MyStore\\23DH114848_MyStore\\Areas\\Admin\\AdminAreaRegistration.cs",
               "RelativeDocumentMoniker": "23DH114848_MyStore\\Areas\\Admin\\AdminAreaRegistration.cs",
               "ToolTip": "D:\\Dev Web Huflit\\23DH114848_MyStore\\23DH114848_MyStore\\Areas\\Admin\\AdminAreaRegistration.cs",
               "RelativeToolTip": "23DH114848_MyStore\\Areas\\Admin\\AdminAreaRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T03:45:16.359Z",
+              "WhenOpened": "2024-10-08T03:45:16.359Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 254,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\23DH114848_MyStore\\23DH114848_MyStore\\Areas\\Admin\\Views\\Categories\\Edit.cshtml",
+              "RelativeDocumentMoniker": "23DH114848_MyStore\\Areas\\Admin\\Views\\Categories\\Edit.cshtml",
+              "ToolTip": "D:\\Dev Web Huflit\\23DH114848_MyStore\\23DH114848_MyStore\\Areas\\Admin\\Views\\Categories\\Edit.cshtml",
+              "RelativeToolTip": "23DH114848_MyStore\\Areas\\Admin\\Views\\Categories\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T13:44:09.143Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MyStoreModel1.edmx [Diagram1]",
-              "DocumentMoniker": "D:\\Dev Web Huflit\\23DH114848_MyStore\\23DH114848_MyStore\\Models\\MyStoreModel1.edmx",
-              "RelativeDocumentMoniker": "23DH114848_MyStore\\Models\\MyStoreModel1.edmx",
-              "ToolTip": "D:\\Dev Web Huflit\\23DH114848_MyStore\\23DH114848_MyStore\\Models\\MyStoreModel1.edmx [Diagram1]",
-              "RelativeToolTip": "23DH114848_MyStore\\Models\\MyStoreModel1.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-10-08T03:28:16.275Z",
-              "EditorCaption": " [Diagram1]"
+              "DocumentIndex": 2,
+              "Title": "PVCreateEditCategory.cshtml",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\23DH114848_MyStore\\23DH114848_MyStore\\Areas\\Admin\\Views\\Categories\\PVCreateEditCategory.cshtml",
+              "RelativeDocumentMoniker": "23DH114848_MyStore\\Areas\\Admin\\Views\\Categories\\PVCreateEditCategory.cshtml",
+              "ToolTip": "D:\\Dev Web Huflit\\23DH114848_MyStore\\23DH114848_MyStore\\Areas\\Admin\\Views\\Categories\\PVCreateEditCategory.cshtml*",
+              "RelativeToolTip": "23DH114848_MyStore\\Areas\\Admin\\Views\\Categories\\PVCreateEditCategory.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T13:49:03.459Z",
+              "EditorCaption": ""
             }
           ]
         }
