@@ -61,7 +61,7 @@ namespace _23DH114848_MyStore.Areas.Admin.Controllers
         // GET: Admin/Categories/Edit/5
         public ActionResult Edit(int? id)
         {
-            Details(id);
+            return Details(id);
             //if (id == null)
             //{
             //    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
@@ -93,7 +93,7 @@ namespace _23DH114848_MyStore.Areas.Admin.Controllers
         // GET: Admin/Categories/Delete/5
         public ActionResult Delete(int? id)
         {
-            Details(id);
+            return Details(id);
             //if (id == null)
             //{
             //    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
