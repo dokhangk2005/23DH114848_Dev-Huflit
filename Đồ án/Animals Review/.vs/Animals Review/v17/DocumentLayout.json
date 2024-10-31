@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dev Web Huflit\\\u0110\u1ED3 \u00E1n\\Animals Review\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B35AA7A-C149-4D03-8CFC-1AA55ACAEA8D}|Animals Review\\Animals Review.csproj|d:\\dev web huflit\\\u0111\u1ED3 \u00E1n\\animals review\\animals review\\content\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B35AA7A-C149-4D03-8CFC-1AA55ACAEA8D}|Animals Review\\Animals Review.csproj|solutionrelative:animals review\\content\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B35AA7A-C149-4D03-8CFC-1AA55ACAEA8D}|Animals Review\\Animals Review.csproj|D:\\Dev Web Huflit\\\u0110\u1ED3 \u00E1n\\Animals Review\\animals review\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B35AA7A-C149-4D03-8CFC-1AA55ACAEA8D}|Animals Review\\Animals Review.csproj|solutionrelative:animals review\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B35AA7A-C149-4D03-8CFC-1AA55ACAEA8D}|Animals Review\\Animals Review.csproj|D:\\Dev Web Huflit\\\u0110\u1ED3 \u00E1n\\Animals Review\\animals review\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B35AA7A-C149-4D03-8CFC-1AA55ACAEA8D}|Animals Review\\Animals Review.csproj|solutionrelative:animals review\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B35AA7A-C149-4D03-8CFC-1AA55ACAEA8D}|Animals Review\\Animals Review.csproj|D:\\Dev Web Huflit\\\u0110\u1ED3 \u00E1n\\Animals Review\\animals review\\views\\shared\\masterlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B35AA7A-C149-4D03-8CFC-1AA55ACAEA8D}|Animals Review\\Animals Review.csproj|solutionrelative:animals review\\views\\shared\\masterlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B35AA7A-C149-4D03-8CFC-1AA55ACAEA8D}|Animals Review\\Animals Review.csproj|D:\\Dev Web Huflit\\\u0110\u1ED3 \u00E1n\\Animals Review\\animals review\\views\\home\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B35AA7A-C149-4D03-8CFC-1AA55ACAEA8D}|Animals Review\\Animals Review.csproj|solutionrelative:animals review\\views\\home\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B35AA7A-C149-4D03-8CFC-1AA55ACAEA8D}|Animals Review\\Animals Review.csproj|D:\\Dev Web Huflit\\\u0110\u1ED3 \u00E1n\\Animals Review\\animals review\\models\\animalsmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{5B35AA7A-C149-4D03-8CFC-1AA55ACAEA8D}|Animals Review\\Animals Review.csproj|solutionrelative:animals review\\models\\animalsmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B35AA7A-C149-4D03-8CFC-1AA55ACAEA8D}|Animals Review\\Animals Review.csproj|D:\\Dev Web Huflit\\\u0110\u1ED3 \u00E1n\\Animals Review\\animals review\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B35AA7A-C149-4D03-8CFC-1AA55ACAEA8D}|Animals Review\\Animals Review.csproj|solutionrelative:animals review\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B35AA7A-C149-4D03-8CFC-1AA55ACAEA8D}|Animals Review\\Animals Review.csproj|D:\\Dev Web Huflit\\\u0110\u1ED3 \u00E1n\\Animals Review\\animals review\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B35AA7A-C149-4D03-8CFC-1AA55ACAEA8D}|Animals Review\\Animals Review.csproj|solutionrelative:animals review\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomePage.cshtml",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\\u0110\u1ED3 \u00E1n\\Animals Review\\Animals Review\\Views\\Home\\HomePage.cshtml",
+              "RelativeDocumentMoniker": "Animals Review\\Views\\Home\\HomePage.cshtml",
+              "ToolTip": "D:\\Dev Web Huflit\\\u0110\u1ED3 \u00E1n\\Animals Review\\Animals Review\\Views\\Home\\HomePage.cshtml",
+              "RelativeToolTip": "Animals Review\\Views\\Home\\HomePage.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T14:37:07.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\\u0110\u1ED3 \u00E1n\\Animals Review\\Animals Review\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Animals Review\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Dev Web Huflit\\\u0110\u1ED3 \u00E1n\\Animals Review\\Animals Review\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Animals Review\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T14:35:59.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.css",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\\u0110\u1ED3 \u00E1n\\Animals Review\\Animals Review\\Content\\index.css",
+              "RelativeDocumentMoniker": "Animals Review\\Content\\index.css",
+              "ToolTip": "D:\\Dev Web Huflit\\\u0110\u1ED3 \u00E1n\\Animals Review\\Animals Review\\Content\\index.css",
+              "RelativeToolTip": "Animals Review\\Content\\index.css",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAACIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-28T14:27:56.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\\u0110\u1ED3 \u00E1n\\Animals Review\\Animals Review\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Animals Review\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Dev Web Huflit\\\u0110\u1ED3 \u00E1n\\Animals Review\\Animals Review\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Animals Review\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T14:23:09.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "masterLayout.cshtml",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\\u0110\u1ED3 \u00E1n\\Animals Review\\Animals Review\\Views\\Shared\\masterLayout.cshtml",
+              "RelativeDocumentMoniker": "Animals Review\\Views\\Shared\\masterLayout.cshtml",
+              "ToolTip": "D:\\Dev Web Huflit\\\u0110\u1ED3 \u00E1n\\Animals Review\\Animals Review\\Views\\Shared\\masterLayout.cshtml",
+              "RelativeToolTip": "Animals Review\\Views\\Shared\\masterLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T07:22:28.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AnimalsModel.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\\u0110\u1ED3 \u00E1n\\Animals Review\\Animals Review\\Models\\AnimalsModel.edmx",
+              "RelativeDocumentMoniker": "Animals Review\\Models\\AnimalsModel.edmx",
+              "ToolTip": "D:\\Dev Web Huflit\\\u0110\u1ED3 \u00E1n\\Animals Review\\Animals Review\\Models\\AnimalsModel.edmx [Diagram1]",
+              "RelativeToolTip": "Animals Review\\Models\\AnimalsModel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-10-22T06:51:45.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\\u0110\u1ED3 \u00E1n\\Animals Review\\Animals Review\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Animals Review\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Dev Web Huflit\\\u0110\u1ED3 \u00E1n\\Animals Review\\Animals Review\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Animals Review\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T14:30:20.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Dev Web Huflit\\\u0110\u1ED3 \u00E1n\\Animals Review\\Animals Review\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Animals Review\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Dev Web Huflit\\\u0110\u1ED3 \u00E1n\\Animals Review\\Animals Review\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Animals Review\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T14:33:25.606Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

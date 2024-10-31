@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2953ad8da1844b4bb90a6ce063982d38" Name="Diagram1" ZoomLevel="66">
+        <EntityTypeShape EntityType="AnimalsModel.Animal" Width="1.5" PointX="8.125" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AnimalsModel.Article" Width="1.5" PointX="10.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AnimalsModel.Comment" Width="1.5" PointX="10.875" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AnimalsModel.ConservationStatu" Width="1.5" PointX="5" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AnimalsModel.Diet" Width="1.5" PointX="5.375" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AnimalsModel.Habitat" Width="1.5" PointX="5.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AnimalsModel.Medium" Width="1.5" PointX="13" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AnimalsModel.Region" Width="1.5" PointX="11.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="AnimalsModel.sysdiagram" Width="1.5" PointX="14.125" PointY="2" IsExpanded="true" />
+        <AssociationConnector Association="AnimalsModel.FK__Animals__Conserv__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="AnimalsModel.FK__Animals__Diet__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="AnimalsModel.FK__Animals__Region__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="AnimalsModel.FK__Comments__Animal__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="AnimalsModel.FK__Media__Animal_ID__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="AnimalsModel.FK__Articles__Animal__60A75C0F" />
+        <AssociationConnector Association="AnimalsModel.FK__Habitat__Animals__6383C8BA" />
+        <EntityTypeShape EntityType="AnimalsModel.User" Width="1.5" PointX="2.875" PointY="1.25" />
+        <AssociationConnector Association="AnimalsModel.FK__Comments__User_I__73BA3083" />
+        <AssociationConnector Association="AnimalsModel.FK__Media__User_ID__74AE54BC" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

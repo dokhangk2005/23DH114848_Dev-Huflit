@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AnimalsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Animal">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Habitat" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Conservation_Status" Type="Int32" />
+    <Property Name="Diet" Type="Int32" />
+    <Property Name="Lifespan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Size" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Image_URL" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Region" Type="Int32" />
+    <NavigationProperty Name="ConservationStatu" Relationship="Self.FK__Animals__Conserv__49C3F6B7" FromRole="Animals" ToRole="ConservationStatus" />
+    <NavigationProperty Name="Diet1" Relationship="Self.FK__Animals__Diet__4AB81AF0" FromRole="Animals" ToRole="Diet" />
+    <NavigationProperty Name="Region1" Relationship="Self.FK__Animals__Region__4BAC3F29" FromRole="Animals" ToRole="Regions" />
+    <NavigationProperty Name="Comments" Relationship="Self.FK__Comments__Animal__5165187F" FromRole="Animals" ToRole="Comments" />
+    <NavigationProperty Name="Media" Relationship="Self.FK__Media__Animal_ID__4E88ABD4" FromRole="Animals" ToRole="Media" />
+    <NavigationProperty Name="Articles" Relationship="AnimalsModel.FK__Articles__Animal__60A75C0F" FromRole="Animal" ToRole="Article" />
+    <NavigationProperty Name="Habitats" Relationship="AnimalsModel.FK__Habitat__Animals__6383C8BA" FromRole="Animal" ToRole="Habitat" />
+  </EntityType>
+  <EntityType Name="Article">
+    <Key>
+      <PropertyRef Name="Article_ID" />
+    </Key>
+    <Property Name="Article_ID" Type="Int32" Nullable="false" />
+    <Property Name="Title" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Content" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Author" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Date_Published" Type="DateTime" Precision="3" />
+    <Property Name="Animals_ID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Animal" Relationship="AnimalsModel.FK__Articles__Animal__60A75C0F" FromRole="Article" ToRole="Animal" />
+  </EntityType>
+  <EntityType Name="Comment">
+    <Key>
+      <PropertyRef Name="Comment_ID" />
+    </Key>
+    <Property Name="Comment_ID" Type="Int32" Nullable="false" />
+    <Property Name="User_ID" Type="Int32" />
+    <Property Name="Animal_ID" Type="Int32" />
+    <Property Name="Comment_Text" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Date_Posted" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Animal" Relationship="Self.FK__Comments__Animal__5165187F" FromRole="Comments" ToRole="Animals" />
+    <NavigationProperty Name="User" Relationship="AnimalsModel.FK__Comments__User_I__73BA3083" FromRole="Comment" ToRole="User" />
+  </EntityType>
+  <EntityType Name="ConservationStatu">
+    <Key>
+      <PropertyRef Name="Status_ID" />
+    </Key>
+    <Property Name="Status_ID" Type="Int32" Nullable="false" />
+    <Property Name="Status_Name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Animals" Relationship="Self.FK__Animals__Conserv__49C3F6B7" FromRole="ConservationStatus" ToRole="Animals" />
+  </EntityType>
+  <EntityType Name="Diet">
+    <Key>
+      <PropertyRef Name="Diet_ID" />
+    </Key>
+    <Property Name="Diet_ID" Type="Int32" Nullable="false" />
+    <Property Name="Diet_Type" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Animals" Relationship="Self.FK__Animals__Diet__4AB81AF0" FromRole="Diet" ToRole="Animals" />
+  </EntityType>
+  <EntityType Name="Habitat">
+    <Key>
+      <PropertyRef Name="Habitat_ID" />
+    </Key>
+    <Property Name="Habitat_ID" Type="Int32" Nullable="false" />
+    <Property Name="Habitat_Type" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Animals_ID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Animal" Relationship="AnimalsModel.FK__Habitat__Animals__6383C8BA" FromRole="Habitat" ToRole="Animal" />
+  </EntityType>
+  <EntityType Name="Medium">
+    <Key>
+      <PropertyRef Name="Media_ID" />
+    </Key>
+    <Property Name="Media_ID" Type="Int32" Nullable="false" />
+    <Property Name="Animal_ID" Type="Int32" />
+    <Property Name="Media_Type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="URL" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Animal" Relationship="Self.FK__Media__Animal_ID__4E88ABD4" FromRole="Media" ToRole="Animals" />
+    <Property Name="User_ID" Type="Int32" />
+    <NavigationProperty Name="User" Relationship="AnimalsModel.FK__Media__User_ID__74AE54BC" FromRole="Medium" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Region">
+    <Key>
+      <PropertyRef Name="Region_ID" />
+    </Key>
+    <Property Name="Region_ID" Type="Int32" Nullable="false" />
+    <Property Name="Region_Name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Climate" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Animals" Relationship="Self.FK__Animals__Region__4BAC3F29" FromRole="Regions" ToRole="Animals" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK__Animals__Conserv__49C3F6B7">
+    <End Role="ConservationStatus" Type="Self.ConservationStatu" Multiplicity="0..1" />
+    <End Role="Animals" Type="Self.Animal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ConservationStatus">
+        <PropertyRef Name="Status_ID" />
+      </Principal>
+      <Dependent Role="Animals">
+        <PropertyRef Name="Conservation_Status" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Animals__Diet__4AB81AF0">
+    <End Role="Diet" Type="Self.Diet" Multiplicity="0..1" />
+    <End Role="Animals" Type="Self.Animal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Diet">
+        <PropertyRef Name="Diet_ID" />
+      </Principal>
+      <Dependent Role="Animals">
+        <PropertyRef Name="Diet" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Animals__Region__4BAC3F29">
+    <End Role="Regions" Type="Self.Region" Multiplicity="0..1" />
+    <End Role="Animals" Type="Self.Animal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Regions">
+        <PropertyRef Name="Region_ID" />
+      </Principal>
+      <Dependent Role="Animals">
+        <PropertyRef Name="Region" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Comments__Animal__5165187F">
+    <End Role="Animals" Type="Self.Animal" Multiplicity="0..1" />
+    <End Role="Comments" Type="Self.Comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Animals">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Comments">
+        <PropertyRef Name="Animal_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Media__Animal_ID__4E88ABD4">
+    <End Role="Animals" Type="Self.Animal" Multiplicity="0..1" />
+    <End Role="Media" Type="Self.Medium" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Animals">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Media">
+        <PropertyRef Name="Animal_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AnimalsEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Animals" EntityType="Self.Animal" />
+    <EntitySet Name="Articles" EntityType="Self.Article" />
+    <EntitySet Name="Comments" EntityType="Self.Comment" />
+    <EntitySet Name="ConservationStatus" EntityType="Self.ConservationStatu" />
+    <EntitySet Name="Diets" EntityType="Self.Diet" />
+    <EntitySet Name="Habitats" EntityType="Self.Habitat" />
+    <EntitySet Name="Media" EntityType="Self.Medium" />
+    <EntitySet Name="Regions" EntityType="Self.Region" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <AssociationSet Name="FK__Animals__Conserv__49C3F6B7" Association="Self.FK__Animals__Conserv__49C3F6B7">
+      <End Role="ConservationStatus" EntitySet="ConservationStatus" />
+      <End Role="Animals" EntitySet="Animals" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Animals__Diet__4AB81AF0" Association="Self.FK__Animals__Diet__4AB81AF0">
+      <End Role="Diet" EntitySet="Diets" />
+      <End Role="Animals" EntitySet="Animals" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Animals__Region__4BAC3F29" Association="Self.FK__Animals__Region__4BAC3F29">
+      <End Role="Regions" EntitySet="Regions" />
+      <End Role="Animals" EntitySet="Animals" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Comments__Animal__5165187F" Association="Self.FK__Comments__Animal__5165187F">
+      <End Role="Animals" EntitySet="Animals" />
+      <End Role="Comments" EntitySet="Comments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Media__Animal_ID__4E88ABD4" Association="Self.FK__Media__Animal_ID__4E88ABD4">
+      <End Role="Animals" EntitySet="Animals" />
+      <End Role="Media" EntitySet="Media" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Articles__Animal__60A75C0F" Association="AnimalsModel.FK__Articles__Animal__60A75C0F">
+      <End Role="Animal" EntitySet="Animals" />
+      <End Role="Article" EntitySet="Articles" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Habitat__Animals__6383C8BA" Association="AnimalsModel.FK__Habitat__Animals__6383C8BA">
+      <End Role="Animal" EntitySet="Animals" />
+      <End Role="Habitat" EntitySet="Habitats" />
+    </AssociationSet>
+    <EntitySet Name="Users" EntityType="AnimalsModel.User" />
+    <AssociationSet Name="FK__Comments__User_I__73BA3083" Association="AnimalsModel.FK__Comments__User_I__73BA3083">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Comment" EntitySet="Comments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Media__User_ID__74AE54BC" Association="AnimalsModel.FK__Media__User_ID__74AE54BC">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Medium" EntitySet="Media" />
+    </AssociationSet>
+  </EntityContainer>
+  <Association Name="FK__Articles__Animal__60A75C0F">
+    <End Type="AnimalsModel.Animal" Role="Animal" Multiplicity="1" />
+    <End Type="AnimalsModel.Article" Role="Article" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Animal">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Article">
+        <PropertyRef Name="Animals_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Habitat__Animals__6383C8BA">
+    <End Type="AnimalsModel.Animal" Role="Animal" Multiplicity="1" />
+    <End Type="AnimalsModel.Habitat" Role="Habitat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Animal">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Habitat">
+        <PropertyRef Name="Animals_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="User_ID" />
+    </Key>
+    <Property Name="User_ID" Type="Int32" Nullable="false" />
+    <Property Name="Username" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="First_Name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Last_Name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Date_Joined" Type="DateTime" Precision="3" />
+    <Property Name="Role" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Comments" Relationship="AnimalsModel.FK__Comments__User_I__73BA3083" FromRole="User" ToRole="Comment" />
+    <NavigationProperty Name="Media" Relationship="AnimalsModel.FK__Media__User_ID__74AE54BC" FromRole="User" ToRole="Medium" />
+  </EntityType>
+  <Association Name="FK__Comments__User_I__73BA3083">
+    <End Type="AnimalsModel.User" Role="User" Multiplicity="0..1" />
+    <End Type="AnimalsModel.Comment" Role="Comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="User_ID" />
+      </Principal>
+      <Dependent Role="Comment">
+        <PropertyRef Name="User_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Media__User_ID__74AE54BC">
+    <End Type="AnimalsModel.User" Role="User" Multiplicity="0..1" />
+    <End Type="AnimalsModel.Medium" Role="Medium" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="User_ID" />
+      </Principal>
+      <Dependent Role="Medium">
+        <PropertyRef Name="User_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
